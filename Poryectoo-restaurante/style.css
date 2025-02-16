@@ -418,3 +418,42 @@ header {
     border-radius: 0.5rem;
     border-bottom: 7px solid var(--green-color);
 }
+
+.customers-container .box:hover {
+    transform: translateY(10px);
+    transition: 0.2s all linear;
+}
+
+.customers-container .box .bx {
+    font-size: 24px;
+    color: var(--green-color);
+}
+
+.customers-container .box .stars .bx {
+    font-size: 1rem;
+    color: var(--light-orange-color);
+}
+
+.customers-container .box p {
+    font-size: 0.938rem;
+}
+
+.review-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    column-gap: 0.5rem;
+}
+
+.review-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.review-profile h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
