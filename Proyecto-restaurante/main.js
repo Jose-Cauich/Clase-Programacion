@@ -1,13 +1,8 @@
-// Inicializa un nuevo carrusel utilizando la biblioteca Swiper en el elemento con la clase ".inicio"
 var swiper = new Swiper(".inicio", {
     spaceBetween: 30,
-    // Centra el slide activo en el viewport
     centeredSlides: true,
-
     navigation: {
-        // El botón llama a la clase "next"
         nextEl: ".swiper-button-next",
-        // El botón llama a la clase "prev"
         prevEl: ".swiper-button-prev",
     },
 });
