@@ -5,195 +5,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
+    <title>Sabores Mexicanos</title>
 
-    <!--css-->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <!--caja de iconos-->
+    <!-- Este es el favicon de la pestaña -->
+    <link rel="icon" href="img/Logoo.jpg" type="image/x-icon">
+
+    <!-- Caja de iconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
     <header>
-        <!-- barra de navegacion-->
-        <a href="#" class="logo"><i class='bx bxs-shopping-bags'></i> Food</a>
+        <!-- Barra de navegación -->
+        <a href="#" class="logo"><i class='bx bxs-shopping-bags'></i> ALCOMEX </a>
 
-        <div class='bx bx-food-menu'></div>
+        <div class='bx bx-menu' id="menu-icon"></div>
 
         <ul class="barra-navegacion">
-            <li><a href="#inicio" class="inicio-retroceder">Inicio</a></li>
-            <li><a href="#categorias">Categorias</a></li>
+            <li><a href="#inicio" class="inicio-activo">Inicio</a></li>
+            <li><a href="#categorias">Categorías</a></li>
             <li><a href="#productos">Productos</a></li>
             <li><a href="#acerca">Acerca de</a></li>
             <li><a href="#clientes">Clientes</a></li>
         </ul>
 
-        <!--perfil del login-->
+        <!-- Perfil del login -->
         <div class="perfil">
-            <img src="img/logo.jpeg" alt="">
+            <img src="img/yyyo.jpg" alt="">
             <span>José</span>
             <i class='bx bx-caret-down'></i>
         </div>
     </header>
 
-    <!--los sliders, platillos de alta demanda-->
+    <!-- Los sliders, platillos de alta demanda -->
     <section class="inicio swiper" id="inicio">
         <div class="swiper-wrapper">
 
-            <!--slide 1-->
+            <!-- Slide 1 -->
             <div class="swiper-slide contenedor">
                 <div class="texto-inicio">
                     <span>Ensalada</span>
-                    <h1>150 gr de carne (a elegir)<br>500Ml consome <br> Tortillas</h1>
+                    <h1>150 gr de carne (a elegir)<br>500Ml consomé <br>Tortillas</h1>
                     <a href="#" class="btn">¡Lo quiero!<i class='bx bx-right-arrow-alt'></i></a>
                 </div>
                 <img src="img/home1.png" alt="">
             </div>
 
-            <!--slide 2-->
+            <!-- Slide 2 -->
             <div class="swiper-slide contenedor">
                 <div class="texto-inicio">
                     <span>A la plancha</span>
-                    <h1> 150 gr Carne pollo / res <br> 500Ml consome <br>Tortillas</h1>
+                    <h1>150 gr Carne pollo / res <br>500Ml consomé <br>Tortillas</h1>
                     <a href="#" class="btn">¡Lo quiero!<i class='bx bx-right-arrow-alt'></i></a>
                 </div>
                 <img src="img/home2.png" alt="">
             </div>
 
-            <!--slide 3-->
+            <!-- Slide 3 -->
             <div class="swiper-slide contenedor">
                 <div class="texto-inicio">
                     <span>Para probar</span>
-                    <h1>200 gr de carne de pollo <br>500Ml consome<br>Tortillas</h1>
+                    <h1>200 gr de carne de pollo <br>500Ml consomé<br>Tortillas</h1>
                     <a href="#" class="btn">¡Lo quiero!<i class='bx bx-right-arrow-alt'></i></a>
                 </div>
                 <img src="img/home3.png" alt="">
             </div>
         </div>
 
-        <!--Flechas de atrás y adelante-->
+        <!-- Flechas de atrás y adelante -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </section>
 
-    <!--titulo de categorías de todos los productos-->
-
+    <!-- Título de categorías de todos los productos -->
     <section class="categorias" id="categorias">
         <div class="encabezado">
-            <h1>Producto extra <br><span>Categorias</h1>
+            <h1>Producto extra <br><span>Categorías</span></h1>
             <a href="#" class="btn">Ver todo<i class='bx bx-right-arrow-alt'></i></a>
         </div>
 
-
-        <!--contenedor de cada categoria-->
+        <!-- Contenedor de cada categoría -->
         <div class="contenedor-categorias">
 
-            <!--Categoria frutas #1-->
+            <!-- Categoría frutas #1 -->
             <div class="box box1">
                 <img src="img/cate1.png" alt="">
                 <h2>Frutas</h2>
-                <span>22 Items</span>
+                <span>22 artículos</span>
                 <i class="bx bx-right-arrow-alt"></i>
             </div>
 
-            <!--Categoria vegetales #2-->
+            <!-- Categoría vegetales #2 -->
             <div class="box box2">
                 <img src="img/cate2.png" alt="">
                 <h2>Vegetales</h2>
-                <span>22 Items</span>
+                <span>22 artículos</span>
                 <i class="bx bx-right-arrow-alt"></i>
             </div>
 
-            <!--Categoria Bebidas #3-->
+            <!-- Categoría Bebidas #3 -->
             <div class="box box3">
                 <img src="img/cate3.png" alt="">
                 <h2>Bebidas</h2>
-                <span>22 Items</span>
+                <span>22 artículos</span>
                 <i class="bx bx-right-arrow-alt"></i>
             </div>
 
-            <!--Categoria Nueces #4-->
+            <!-- Categoría Nueces #4 -->
             <div class="box box4">
                 <img src="img/cate4.png" alt="">
                 <h2>Nueces</h2>
-                <span>22 Items</span>
+                <span>22 artículos</span>
                 <i class="bx bx-right-arrow-alt"></i>
             </div>
 
-            <!--Categoria Especias #5-->
+            <!-- Categoría Especias #5 -->
             <div class="box box5">
                 <img src="img/cate5.png" alt="">
                 <h2>Especias</h2>
-                <span>22 Items</span>
+                <span>22 artículos</span>
                 <i class="bx bx-right-arrow-alt"></i>
             </div>
         </div>
     </section>
 
-    <!--seccion de productos en descuento-->
+    <!-- Sección de productos en descuento -->
     <section class="productos" id="productos">
         <div class="encabezado">
-            <h1>Lo más popular <br><span>productos</h1>
+            <h1>Frutas y Verduras <br><span>Productos</span></h1>
             <a href="#" class="btn">Ver todo<i class='bx bx-right-arrow-alt'></i></a>
         </div>
 
-        <!--productos en descuento-->
+        <!-- Productos en descuento -->
         <div class="contenedor-productos">
 
-            <!--Durazno #1-->
+            <!-- Durazno #1 -->
             <div class="box">
                 <img src="img/p1.png" alt="">
-                <span> Fresh Items </span>
-                <h2>Farm Fresh organic<br>fruits 250g</h2>
-                <h3 class="precio"> $7.99 <span>kg</span></h3>
+                <span>Artículos Frescos</span>
+                <h2>Durazno Del Monte<br>250 g</h2>
+                <h3 class="precio">$7.99 <span>kg</span></h3>
                 <i class='bx bx-cart-alt'></i>
                 <i class='bx bx-heart'></i>
                 <span class="descuento">-25%</span>
             </div>
 
-            <!--Maracuya #2-->
+            <!-- Maracuyá #2 -->
             <div class="box">
                 <img src="img/p2.png" alt="">
-                <span> Fresh Items </span>
-                <h2>Farm Fresh organic<br>fruits 250g</h2>
-                <h3 class="precio"> $7.99 <span>kg</span></h3>
+                <span>Artículos Frescos</span>
+                <h2>Maracuyá Tropicana<br>250 g</h2>
+                <h3 class="precio">$7.99 <span>kg</span></h3>
                 <i class='bx bx-cart-alt'></i>
                 <i class='bx bx-heart'></i>
                 <span class="descuento">-25%</span>
             </div>
 
-            <!--Zanahorias #3-->
+            <!-- Zanahorias #3 -->
             <div class="box">
                 <img src="img/p3.png" alt="">
-                <span> Fresh Items </span>
-                <h2>Farm Fresh organic<br>fruits 250g</h2>
-                <h3 class="precio"> $7.99 <span>kg</span></h3>
+                <span>Artículos Frescos</span>
+                <h2>Zanahoria Green Giant<br>250 g</h2>
+                <h3 class="precio">$7.99 <span>kg</span></h3>
                 <i class='bx bx-cart-alt'></i>
                 <i class='bx bx-heart'></i>
                 <span class="descuento">-25%</span>
             </div>
 
-
-            <!--Fresa #4-->
+            <!-- Fresa #4 -->
             <div class="box">
                 <img src="img/p4.png" alt="">
-                <span> Fresh Items </span>
-                <h2>Farm Fresh organic<br>fruits 250g</h2>
-                <h3 class="precio"> $7.99 <span>kg</span></h3>
+                <span>Artículos Frescos</span>
+                <h2>Fresa Driscoll's<br>250 g</h2>
+                <h3 class="precio">$7.99 <span>kg</span></h3>
                 <i class='bx bx-cart-alt'></i>
                 <i class='bx bx-heart'></i>
                 <span class="descuento">-25%</span>
             </div>
 
-
-            <!--Ciruela #5-->
+            <!-- Ciruela #5 -->
             <div class="box">
                 <img src="img/p5.png" alt="">
-                <span> Fresh Items </span>
-                <h2>Farm Fresh organic<br>fruits 250g</h2>
-                <h3 class="precio"> $7.99 <span>kg</span></h3>
+                <span>Artículos Frescos</span>
+                <h2>Cereza Stella Cherries<br>250 g</h2>
+                <h3 class="precio">$7.99 <span>kg</span></h3>
                 <i class='bx bx-cart-alt'></i>
                 <i class='bx bx-heart'></i>
                 <span class="descuento">-25%</span>
@@ -201,10 +200,8 @@
         </div>
     </section>
 
-
-    <!--Seccion de información (About)-->
+    <!-- Sección de información (About) -->
     <section class="acerca" id="acerca">
-
         <img src="img/about.png" alt="">
         <div class="acerca-texto">
             <span>Acerca de</span>
@@ -218,10 +215,10 @@
         </div>
     </section>
 
-    <!--Sección de clientes-->
+    <!-- Sección de clientes -->
     <section class="clientes" id="clientes">
         <h2>Comentarios</h2>
-        <!--Customers content -->
+        <!-- Contenido de los clientes -->
         <div class="contenedor-clientes">
 
             <!-- Comentario #1 y estrellas -->
@@ -243,7 +240,6 @@
                 </div>
             </div>
 
-
             <!-- Comentario #2 y estrellas -->
             <div class="box">
                 <i class='bx bxs-quote-alt-left'></i>
@@ -253,7 +249,6 @@
                     <i class='bx bx-star'></i>
                     <i class='bx bx-star'></i>
                     <i class='bx bx-star'></i>
-
                 </div>
                 <p>El lugar es feo, la comida es mala y el tiempo de espera fue demasiado largo. Además, mi
                     plato llegó tibio en lugar de caliente. Podría ser una mejor experiencia si cambiaran al mesero y al
@@ -263,7 +258,6 @@
                     <h3>El amigo "Yosake"</h3>
                 </div>
             </div>
-
 
             <!-- Comentario #3 y estrellas -->
             <div class="box">
@@ -286,12 +280,12 @@
         </div>
     </section>
 
-    <!--Seccion de footer-->
+    <!-- Sección de footer -->
     <section>
         <section class="footer" id="footer">
             <div class="footer-box">
                 <a href="#" class="logo"> <i class="bx bxs-basket"></i>FOOD</a>
-                <p>Gymvast, 50th Años, 4th <br>Floor, México 10022</p>
+                <p>Polanco, 50 años, 4to <br>Piso, México 10022</p>
                 <div class="social">
                     <a href="#"><i class="bx bxl-facebook"></i></a>
                     <a href="#"><i class="bx bxl-twitter"></i></a>
@@ -300,47 +294,31 @@
                 </div>
             </div>
 
-            <!-- Lista de categorias -->
+            <!-- Lista de categorías -->
             <div class="footer-box">
-                <h2>categories</h2>
-                <a href="#"> Fruits & Vegetables</a>
-                <a href="#"> Dairy Products</a>
-                <a href="#"> Package Food</a>
-                <a href="#">Bevarage</a>
+                <h2>Categorías</h2>
+                <a href="#">Frutas y Verduras</a>
+                <a href="#">Productos Lácteos</a>
+                <a href="#">Carnes</a>
+                <a href="#">Panes y Granos</a>
+                <a href="#">Bebidas</a>
+                <a href="#">Otros</a>
             </div>
 
-            <!-- Lista de información -->
+            <!-- Lista de contacto -->
             <div class="footer-box">
-                <h2>Useful Links</h2>
-                <a href="#"> Payment & Tax</a>
-                <a href="#"> Terms oof Use</a>
-                <a href="#"> My Blog</a>
-                <a href="#">Return Policy</a>
-            </div>
-
-            <!-- Envio de correo Email-->
-            <div class="footer-box">
-                <h2>Newsletter</h2>
-                <p> Get 10% Discount with <br> Email Newsletter</p>
-                <form action="">
-                    <i class="bx bxs-envelope"></i>
-                    <input type="email" name="" id="" placeholder="Enter Your Email">
-                    <i class="bx bx-arrow-nack bx-rotate-180"></i>
-                </form>
+                <h2>Contacto</h2>
+                <a href="#">Llamar</a>
+                <a href="#">Correo</a>
+                <a href="#">Ubicación</a>
+                <a href="#">Ayuda</a>
             </div>
         </section>
+    </section>
 
-        <!--copyright-->
-        <div class="copyright">
-            <p>&#169; José María Cauich Puc.</p>
-        </div>
-
-        <!--swiper JS de los Sliders del inicio-->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-        <!--Link a mi archivo de JS-->
-        <script src="main.js"></script>
-
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

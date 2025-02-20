@@ -109,7 +109,7 @@ header {
 }
 
 .barra-navegacion a:hover,
-.barra-navegacion .inicio-retroceder {
+.barra-navegacion .inicio-activo {
     background: var(--green-color);
     border-radius: 5rem;
     color: var(--bg-color);
@@ -584,7 +584,7 @@ header {
 
 @media (max-width: 991px) {
     header {
-        padding: 10px 4%;
+        padding: 18px 4%;
     }
 
     section {
@@ -593,10 +593,6 @@ header {
 
     .texto-inicio h1 {
         font-size: 2rem;
-    }
-
-    .texto-inicio {
-        padding: 0 5%;
     }
 
     .swiper-button-next,
@@ -616,7 +612,7 @@ header {
 
     .barra-navegacion {
         position: absolute;
-        top: -570px;
+        top: 100%;
         left: 0;
         right: 0;
         display: flex;
@@ -634,12 +630,12 @@ header {
     }
 
     .barra-navegacion a:hover,
-    .barra-navegacion .inicio-retroceder {
+    .barra-navegacion .inicio-activo {
         border-radius: 00.5rem;
         color: var(--bg-color);
     }
 
-    .barra-navegacion .active {
+    .barra-navegacion .activo {
         top: 100%;
     }
 
@@ -774,12 +770,12 @@ header {
     }
 
     .barra-navegacion a:hover,
-    .barra-navegacion .inicio-retroceder {
+    .barra-navegacion .inicio-activo {
         border-radius: 00.5rem;
         color: var(--bg-color);
     }
 
-    .barra-navegacion .retroceder {
+    .barra-navegacion .activo {
         top: 100%;
     }
 
