@@ -279,8 +279,9 @@ header {
     display: none;
 }
 
+/*cambie le color en el hover*/
 .contenedor-categorias .box .bx:hover {
-    background-color: var(--light-orange-color);
+    background-color: var(--text-color);
     transition: 0.2s all linear;
 }
 
@@ -346,11 +347,13 @@ header {
     font-weight: 600;
 }
 
+
+/*cambie le color de la caja donde se encuenttra el ticket*/
 .contenedor-productos .box .precio {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 0.5rem;
-    color: var(--light-orange-color);
+    color: var(--light-green-color);
 
 }
 
