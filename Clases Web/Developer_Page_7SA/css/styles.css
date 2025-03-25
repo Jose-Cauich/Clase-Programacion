@@ -96,11 +96,33 @@ body {
 }
 
 .hero {
+    position: relative;
     background-image: url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    /* Asegura que el texto sea claro */
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Oscurece la imagen (0.5 = 50%) */
+}
+
+.hero * {
     position: relative;
+    /* Para que el contenido no se vea afectado por el `::before` */
 }
 
 .contenido-hero {
@@ -122,18 +144,30 @@ body {
 .ubicacion {
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+.cont-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ubicacion p {
+    margin: 0;
 }
 
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);
-    padding: 1 rem, 3rem;
+    padding: 15 rem, 3rem;
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: .5rem;
-    width: 100%;
+    width: 50%;
     text-align: center;
 }
 
@@ -142,8 +176,7 @@ body {
 @media (min-width: 768px) {
     .servicios {
         display: grid;
-        /* poner el contentenido en grillas*/
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         /* repetir X veces | xfr*/
     }
 }
